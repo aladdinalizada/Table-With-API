@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <br />
+    <!-- Icon the seacrh -->
+    <div class="search">
+      <label for="search">Search</label>
+      <input type="search" id="search" placeholder="Search to Data" />
+      <!-- <i class="fas fa-search"></i> -->
+    </div>
+    <br />
+    <br />
+    <!-- Edit Table -->
+    <button class="showBtn">Show</button>
+    <div class="edit-table">
+      <div class="edit-table-content">
+        <div class="edit-table-header">
+          <h2>Form for Edit Table</h2>
+        </div>
+        <div class="edit-table-body">
+          <form>
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" />
+            <label for="contactName">Contact Name</label>
+            <input type="text" id="contactName" />
+            <label for="contactTitle">Contact Title</label>
+            <input type="text" id="contactTitle" />
+            <button type="submit" class="submitBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Company Name</th>
+          <th>Contact Name</th>
+          <th>Contact Title</th>
+          <th>Edit Product</th>
+          <th>Delete Product</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
